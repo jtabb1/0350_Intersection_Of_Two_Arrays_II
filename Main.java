@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
     int[] in1 = new int[]{1,2,2,1};
     int[] in2 = new int[]{2,2};
+    System.out.println("Hello world!");
     int[] inOut;
     Main obj = new Main();
     inOut = obj.intersect(in1, in2);
